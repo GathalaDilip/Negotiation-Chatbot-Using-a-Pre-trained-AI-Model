@@ -13,7 +13,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import google.generativeai as genai
 
 # Set up environment and API key
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAg6csl2ptM9o9zfAaH4N1EHLz8wIhyvlc'
+os.environ['GOOGLE_API_KEY'] = 'Use Your Key'
 genai.configure(api_key='GOOGLE_API_KEY')
 warnings.filterwarnings("ignore")
 
